@@ -1,0 +1,16 @@
+{
+  "name": "databricks",
+  "description": "...",
+  "version": "0.2.1",
+  "author": {
+    "name": "Sanhe Hu",
+    "email": "husanhe@email.com"
+  },
+  "homepage": "https://github.com/MacHu-GWU/shsk_databricks-project",
+  "repository": "https://github.com/MacHu-GWU/shsk_databricks-project",
+  "license": "AGPL-3.0-or-later",
+  "keywords": [
+    "claude-code",
+    "agent-skill"
+  ]
+}

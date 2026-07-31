@@ -1,0 +1,11 @@
+{
+  "name": "databricks-docs",
+  "index": {
+    "url": "https://docs.databricks.com/llms.txt",
+    "format": "llms-txt",
+    "cache_ttl_seconds": 86400
+  },
+  "content": {
+    "mode": "html-webfetch"
+  }
+}
