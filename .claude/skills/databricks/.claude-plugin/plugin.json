@@ -1,6 +1,6 @@
 {
   "name": "databricks",
-  "description": "...",
+  "description": "Databricks agent skills for Claude Code. Ships databricks-docs, an on-demand lookup that answers Databricks questions from the official docs instead of training-cutoff memory.",
   "version": "0.2.1",
   "author": {
     "name": "Sanhe Hu",
@@ -11,6 +11,13 @@
   "license": "AGPL-3.0-or-later",
   "keywords": [
     "claude-code",
-    "agent-skill"
+    "agent-skill",
+    "databricks",
+    "databricks-docs",
+    "documentation",
+    "unity-catalog",
+    "lakeflow",
+    "delta-lake",
+    "data-engineering"
   ]
 }

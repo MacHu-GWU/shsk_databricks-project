@@ -50,7 +50,20 @@ Welcome to ``shsk_databricks`` Documentation
 .. image:: https://shsk-databricks.readthedocs.io/en/latest/_static/shsk_databricks-logo.png
     :target: https://shsk-databricks.readthedocs.io/en/latest/
 
-Documentation for ``shsk_databricks``.
+``shsk_databricks`` is a collection of `Claude Code <https://claude.com/claude-code>`_ agent
+skills for working with `Databricks <https://www.databricks.com/>`_. The skills are packaged as
+a Claude Code plugin named ``databricks``, laid out under ``.claude/skills/databricks/``, so each
+one is loaded on demand when the conversation actually calls for it rather than sitting in the
+agent's context all the time.
+
+As of 0.1.1 the plugin ships a single skill, ``databricks-docs``. It answers Databricks questions
+from the official documentation at the moment you ask, instead of from whatever the model happened
+to learn before its training cutoff — which matters for a vendor that renames things as often as
+Databricks does (``dlt/`` became ``ldp/``, Delta Live Tables became Lakeflow Declarative
+Pipelines, Workflows became Lakeflow Jobs). It searches a locally cached copy of the
+``docs.databricks.com`` ``llms.txt`` index — 252 entries across 15 sections — feeds only the
+matching lines into context, and then reads just the pages that matched. More Databricks skills
+will be added to the same plugin over time.
 
 
 .. _install:
