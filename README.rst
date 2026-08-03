@@ -1,21 +1,21 @@
 
-.. image:: https://readthedocs.org/projects/shsk-databricks/badge/?version=latest
+.. .. image:: https://readthedocs.org/projects/shsk-databricks/badge/?version=latest
     :target: https://shsk-databricks.readthedocs.io/en/latest/
     :alt: Documentation Status
 
-.. image:: https://github.com/MacHu-GWU/shsk_databricks-project/actions/workflows/main.yml/badge.svg
+.. .. image:: https://github.com/MacHu-GWU/shsk_databricks-project/actions/workflows/main.yml/badge.svg
     :target: https://github.com/MacHu-GWU/shsk_databricks-project/actions?query=workflow:CI
 
-.. image:: https://codecov.io/gh/MacHu-GWU/shsk_databricks-project/branch/main/graph/badge.svg
+.. .. image:: https://codecov.io/gh/MacHu-GWU/shsk_databricks-project/branch/main/graph/badge.svg
     :target: https://codecov.io/gh/MacHu-GWU/shsk_databricks-project
 
-.. image:: https://img.shields.io/pypi/v/shsk-databricks.svg
+.. .. image:: https://img.shields.io/pypi/v/shsk-databricks.svg
     :target: https://pypi.python.org/pypi/shsk-databricks
 
-.. image:: https://img.shields.io/pypi/l/shsk-databricks.svg
+.. .. image:: https://img.shields.io/pypi/l/shsk-databricks.svg
     :target: https://pypi.python.org/pypi/shsk-databricks
 
-.. image:: https://img.shields.io/pypi/pyversions/shsk-databricks.svg
+.. .. image:: https://img.shields.io/pypi/pyversions/shsk-databricks.svg
     :target: https://pypi.python.org/pypi/shsk-databricks
 
 .. image:: https://img.shields.io/badge/✍️_Release_History!--None.svg?style=social&logo=github
@@ -26,10 +26,10 @@
 
 ------
 
-.. image:: https://img.shields.io/badge/Link-API-blue.svg
+.. .. image:: https://img.shields.io/badge/Link-API-blue.svg
     :target: https://shsk-databricks.readthedocs.io/en/latest/py-modindex.html
 
-.. image:: https://img.shields.io/badge/Link-Install-blue.svg
+.. .. image:: https://img.shields.io/badge/Link-Install-blue.svg
     :target: `install`_
 
 .. image:: https://img.shields.io/badge/Link-GitHub-blue.svg
@@ -47,7 +47,7 @@
 
 Welcome to ``shsk_databricks`` Documentation
 ==============================================================================
-.. image:: https://shsk-databricks.readthedocs.io/en/latest/_static/shsk_databricks-logo.png
+.. .. image:: https://shsk-databricks.readthedocs.io/en/latest/_static/shsk_databricks-logo.png
     :target: https://shsk-databricks.readthedocs.io/en/latest/
 
 ``shsk_databricks`` is a collection of `Claude Code <https://claude.com/claude-code>`_ agent

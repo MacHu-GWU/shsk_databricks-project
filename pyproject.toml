@@ -10,7 +10,7 @@ name = "shsk_databricks"
 # (Read https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#version)
 # So this value has to be aligned with the one in ``shsk_databricks/_version.py``
 version = "0.1.1"
-description = "A collection of Databricks agent skills for Claude Code, distributed as the databricks plugin."
+description = "Databricks agent skills for Claude Code. Ships databricks-docs, an on-demand lookup that answers Databricks questions from the official docs instead of training-cutoff memory."
 # Read https://dev-exp-share.readthedocs.io/en/latest/search.html?q=Pick+An+Open+Source+License+For+Python+Project&check_keywords=yes&area=default
 # To pick a license and update the ``license``, ``classifier`` field in ``pyproject.toml``
 # And also update the ``LICENSE.txt`` file in the git repo.
